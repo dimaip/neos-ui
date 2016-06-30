@@ -5,7 +5,7 @@ import Button from './index.js';
 storiesOf('Button', module)
     .add('states', () => (
         <div>
-            <Button onClick={action('onClick')}>Normal state</Button>
+            <Button onClick={action('onClick')}>Normal state!!!</Button>
             <Button onClick={action('onClick')} isActive={true}>Active</Button>
             <Button onClick={action('onClick')} isDisabled={true}>Disabled</Button>
             <Button onClick={action('onClick')} isFocused={true}>Focused</Button>
